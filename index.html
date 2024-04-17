@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Handwriting Converter</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Handwriting Converter</h1>
+    <div class="wrapper">
+      <div class="left">
+        <textarea id="inputText" placeholder="Enter your text here..."></textarea>
+        <label for="fontSelect">Select Font:</label>
+        <select id="fontSelect">
+          <!-- Options will be dynamically added using JavaScript -->
+        </select>
+        <button id="convertBtn">Convert to Handwriting</button>
+      </div>
+      <div class="right">
+        <div class="output-area">
+          <h2>Handwritten Text</h2>
+          <div id="outputTextHandwritten"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
